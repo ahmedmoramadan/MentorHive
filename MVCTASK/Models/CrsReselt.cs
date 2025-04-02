@@ -4,7 +4,7 @@ namespace MVCTASK.Models
 {
     public class CrsReselt
     {
-        public int Id { get; set; }
+        //public int Id { get; set; }
         public int Gredee { get; set; }
         [ForeignKey("Trainee")]
         public int TraineeId { get; set; }

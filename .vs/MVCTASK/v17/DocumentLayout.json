@@ -5,22 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\controllers\\instractorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\controllers\\instractorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\views\\instractor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\views\\instractor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\views\\instractor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\views\\instractor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,61 +24,9 @@
               "RelativeDocumentMoniker": "MVCTASK\\Controllers\\InstractorController.cs",
               "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Controllers\\InstractorController.cs",
               "RelativeToolTip": "MVCTASK\\Controllers\\InstractorController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T17:41:41.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Views\\Instractor\\Index.cshtml",
-              "RelativeDocumentMoniker": "MVCTASK\\Views\\Instractor\\Index.cshtml",
-              "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Views\\Instractor\\Index.cshtml",
-              "RelativeToolTip": "MVCTASK\\Views\\Instractor\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-30T17:21:40.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Views\\Instractor\\Details.cshtml",
-              "RelativeDocumentMoniker": "MVCTASK\\Views\\Instractor\\Details.cshtml",
-              "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Views\\Instractor\\Details.cshtml",
-              "RelativeToolTip": "MVCTASK\\Views\\Instractor\\Details.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-30T17:21:38.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "MVCTASK\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "MVCTASK\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAlwDgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-30T17:20:07.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MVCTASK\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MVCTASK\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-30T16:59:51.393Z",
+              "WhenOpened": "2025-04-02T20:05:35.535Z",
               "EditorCaption": ""
             }
           ]

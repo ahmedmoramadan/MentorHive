@@ -1,0 +1,123 @@
+﻿@* @model IEnumerable<MVCTASK.ViewModels.CourseResultVM> *@
+
+@* @{ *@
+@*     ViewData["Title"] = "Result"; *@
+@* } *@
+
+@* <h1 style="text-align:center;">@Model.FirstOrDefault()!.Course</h1> *@
+
+@* <style> *@
+@*     .table { *@
+@*         width: 60%; *@
+@*         border-collapse: collapse; *@
+@*         margin:auto ; *@
+@*         font-size: 18px; *@
+@*     } *@
+@*     .table th, .table td { *@
+@*         padding: 12px; *@
+@*         text-align: left; *@
+@*         border: 1px solid #ddd; *@
+@*     } *@
+@*     .table th { *@
+@*         background-color: #222; *@
+@*         color: white; *@
+@*     } *@
+@*     .red { *@
+@*         background-color: #f44336; *@
+@*         color: white; *@
+@*     } *@
+@*     .blue { *@
+@*         background-color: #2196F3; *@
+@*         color: white; *@
+@*     } *@
+@* </style> *@
+@* <table class="table"> *@
+@*     <thead> *@
+@*         <tr> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.trainee) *@
+@*             </th> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.color) *@
+@*             </th> *@
+@*         </tr> *@
+@*     </thead> *@
+@*     <tbody> *@
+@*         @foreach (var item in Model) *@
+@*         { *@
+@*                 <tr> *@
+@*                     <td> *@
+@*                     @Html.DisplayFor(modelItem => item.trainee) *@
+@*                     </td> *@
+@*                     <td style="background-color:@item.color"> *@
+@*                     </td> *@
+@*                 </tr> *@
+@*         } *@
+@*     </tbody> *@
+@* </table> *@
+@model IEnumerable<MVCTASK.ViewModels.CourseResultVM>
+
+@{
+    ViewData["Title"] = "Result";
+}
+
+<h1 style="text-align:center; font-size: 24px; color: #333; margin-bottom: 20px;">
+   Course: @Model.FirstOrDefault()!.Course
+</h1>
+
+<style>
+    .table-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .table {
+        width: 50%;
+        border-collapse: collapse;
+        font-size: 18px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .table th, .table td {
+        padding: 14px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+    .table th {
+        background-color: #222;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .table tbody tr:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+    .color-cell {
+        width: 120px;
+        border-radius: 5px;
+    }
+</style>
+
+<div class="table-container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.trainee)</th>
+                <th>@Html.DisplayNameFor(model => model.color)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.trainee)</td>
+                        <td class="color-cell" style="background-color:@item.color;">
+                        </td>
+                    </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

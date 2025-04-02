@@ -42,13 +42,15 @@ body {
     color:white;
 }
 .btnNext {
-    right: 7%;
+    right: 8%;
+    bottom:9%;
 }
 
 .btnPrev {
     right: 13%;
+    bottom:9%;
 }
-td {
+td , th {
     text-align:center;
     margin-top:20px
 

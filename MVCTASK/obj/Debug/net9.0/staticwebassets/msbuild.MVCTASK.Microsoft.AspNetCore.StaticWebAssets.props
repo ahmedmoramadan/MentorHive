@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fwbyeluq62</Fingerprint>
-      <Integrity>vxLDdwhtB85onQ4jFB0ZMTsXrZGUCzpGsphgm2OUxIM=</Integrity>
+      <Fingerprint>c4tk6i1o5f</Fingerprint>
+      <Integrity>lNERyzhcpbOKBhYAIZ6Lt+nkk1SQRXqIu9mYMyeFHpU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -126,23 +126,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\4.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\5 - Copy.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\5.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>MVCTASK</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MVCTASK</BasePath>
-      <RelativePath>Images/5 - Copy.jpg</RelativePath>
+      <RelativePath>Images/5.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>uiec61fpkt</Fingerprint>
-      <Integrity>hm7b8aW/KdYpTS5rg4jGGjd9IZGpyXrTJfMDxQHOH9o=</Integrity>
+      <Fingerprint>jqe0vp5j59</Fingerprint>
+      <Integrity>ZSJYiTmY25eHbfik+kEcxsw86hIFLV++5M8Dv66nf9c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\5 - Copy.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\5.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\6.jpg'))">
       <SourceType>Package</SourceType>

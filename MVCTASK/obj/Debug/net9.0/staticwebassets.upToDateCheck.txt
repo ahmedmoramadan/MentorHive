@@ -72,7 +72,7 @@ wwwroot\Images\1.jpg
 wwwroot\Images\2.jpg
 wwwroot\Images\3.jpg
 wwwroot\Images\4.jpg
-wwwroot\Images\5 - Copy.jpg
+wwwroot\Images\5.jpg
 wwwroot\Images\6.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

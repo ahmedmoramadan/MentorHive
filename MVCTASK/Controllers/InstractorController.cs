@@ -13,12 +13,15 @@ namespace MVCTASK.Controllers
         {
             //var n = num*4;
             var len =  _db.instractores.Count();
-            if ((len <= (num -1) * 4)|| (num <= 0)) { 
+            if (len <= (num -1) * 6) { 
                 num = 1;
+            }else if (num <= 0)
+            {
+                num = (len % 6 == 0) ? len / 6 : len / 6 + 1;
             }
             ViewBag.number = num;
 
-            var listinst = _db.instractores.Skip((num - 1) * 4).Take(4);
+            var listinst = _db.instractores.Skip((num - 1) * 6).Take(6);
             return View(listinst);
         }
         public IActionResult Details(int id)

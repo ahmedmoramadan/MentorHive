@@ -16,5 +16,11 @@ namespace MVCTASK.Data
             optionsBuilder.
                 UseSqlServer("Data Source=.;Initial Catalog=TaskITIDB;Integrated Security=True;Encrypt=False;Trust Server Certificate=True");
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<CrsReselt>().HasKey(c => new { c.TraineeId, c.CourseId });
+        }
+
     }
 }
