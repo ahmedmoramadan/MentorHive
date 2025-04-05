@@ -1,0 +1,70 @@
+﻿@model MVCTASK.ViewModels.CourseVM.AddCourseVM
+
+@{
+    ViewData["Title"] = "Add New Course";
+}
+
+<h1 class="mb-4 text-primary">Add New Course</h1>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow rounded-4">
+            <div class="card-body">
+                <h4 class="card-title mb-4">Course Details</h4>
+                <form asp-action="Add">
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label"></label>
+                        <input asp-for="Name" class="form-control" placeholder="Enter course name" />
+                        <span asp-validation-for="Name" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Degree" class="form-label"></label>
+                        <input asp-for="Degree" class="form-control" placeholder="Enter degree" />
+                        <span asp-validation-for="Degree" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="MinDegree" class="form-label"></label>
+                        <input asp-for="MinDegree" class="form-control" placeholder="Enter minimum degree" />
+                        <span asp-validation-for="MinDegree" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Hour" class="form-label"></label>
+                        <input asp-for="Hour" class="form-control" placeholder="Enter hours" />
+                        <span asp-validation-for="Hour" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-4">
+                        <label asp-for="DepartmentId" class="form-label"></label>
+                        <select asp-for="DepartmentId" class="form-select" asp-items="Model.Departments">
+                            <option value="">-- Select Department --</option>
+                        </select>
+                        <span asp-validation-for="DepartmentId" class="text-danger small"></span>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-success btn-lg rounded-pill">
+                            <i class="bi bi-plus-circle me-2"></i> Create Course
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="mt-4 text-center">
+            <a asp-action="Index" class="btn btn-outline-secondary">
+                <i class="bi bi-arrow-left-circle me-1"></i> Back to List
+            </a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -49,7 +49,7 @@ namespace MVCTASK.Migrations
 
                     b.HasIndex("DepartmentId");
 
-                    b.ToTable("courses");
+                    b.ToTable("courses", (string)null);
                 });
 
             modelBuilder.Entity("MVCTASK.Models.CrsReselt", b =>
@@ -67,7 +67,7 @@ namespace MVCTASK.Migrations
 
                     b.HasIndex("CourseId");
 
-                    b.ToTable("crsReselts");
+                    b.ToTable("crsReselts", (string)null);
                 });
 
             modelBuilder.Entity("MVCTASK.Models.Department", b =>
@@ -88,10 +88,10 @@ namespace MVCTASK.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("departments");
+                    b.ToTable("departments", (string)null);
                 });
 
-            modelBuilder.Entity("MVCTASK.Models.Instractore", b =>
+            modelBuilder.Entity("MVCTASK.Models.Instructor", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -126,7 +126,7 @@ namespace MVCTASK.Migrations
 
                     b.HasIndex("DepartmentId");
 
-                    b.ToTable("instractores");
+                    b.ToTable("instructors", (string)null);
                 });
 
             modelBuilder.Entity("MVCTASK.Models.Trainee", b =>
@@ -159,7 +159,7 @@ namespace MVCTASK.Migrations
 
                     b.HasIndex("DepartmentId");
 
-                    b.ToTable("trainees");
+                    b.ToTable("trainees", (string)null);
                 });
 
             modelBuilder.Entity("MVCTASK.Models.Course", b =>
@@ -192,7 +192,7 @@ namespace MVCTASK.Migrations
                     b.Navigation("Trainee");
                 });
 
-            modelBuilder.Entity("MVCTASK.Models.Instractore", b =>
+            modelBuilder.Entity("MVCTASK.Models.Instructor", b =>
                 {
                     b.HasOne("MVCTASK.Models.Course", "Course")
                         .WithMany()

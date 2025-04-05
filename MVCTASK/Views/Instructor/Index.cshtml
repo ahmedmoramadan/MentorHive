@@ -1,0 +1,69 @@
+﻿@model IEnumerable<MVCTASK.Models.Instructor>
+
+@{
+    Layout = "_AdvLayout";
+    ViewData["Title"] = "Index";
+    int n = ViewBag.number;
+}
+
+<div class="container mt-5">
+
+    <!-- Header with title and Add button -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="text-primary mb-0"><i class="bi bi-people-fill me-2"></i> Instructors List</h2>
+        <a asp-action="Add" class="btn btn-success rounded-pill">
+            <i class="bi bi-plus-circle me-1"></i> Add Instructor
+        </a>
+    </div>
+
+    <!-- Card for Table -->
+    <div class="card shadow-lg rounded-4">
+        <div class="card-body">
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover align-middle">
+                    <thead class="table-dark text-center">
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.Name)</th>
+                            <th>@Html.DisplayNameFor(model => model.Salary)</th>
+                            <th>@Html.DisplayNameFor(model => model.Address)</th>
+                            <th>@Html.DisplayNameFor(model => model.Img)</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                                <tr>
+                                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Salary)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Address)</td>
+                                    <td class="text-center">
+                                        <img src="~/Assests/Images/Instructor/@item.Img" alt="Instructor Image"
+                                             class="img-thumbnail rounded-circle shadow-sm"
+                                             style="width: 80px; height: 80px; object-fit: cover;" />
+                                    </td>
+                                    <td class="text-center">
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-info btn-sm me-1">Details</a>
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-success btn-sm">Edit</a>
+                                    </td>
+                                </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Pagination buttons outside the card -->
+    <div class="d-flex justify-content-between mt-4">
+        <a asp-action="" asp-route-num="@(n - 1)" class="btn btn-outline-secondary">
+            <i class="bi bi-arrow-left"></i> Prev
+        </a>
+        <a asp-action="" asp-route-num="@(n + 1)" class="btn btn-outline-primary">
+            Next <i class="bi bi-arrow-right"></i>
+        </a>
+    </div>
+
+</div>

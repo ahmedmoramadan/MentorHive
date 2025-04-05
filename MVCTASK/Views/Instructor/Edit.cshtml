@@ -1,0 +1,75 @@
+﻿@model MVCTASK.ViewModels.instractorVM.EditInstVm
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>EditInstVm</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" asp-route-id=@Model.id enctype="multipart/form-data">
+            @* <div asp-validation-summary="ModelOnly" class="text-danger"></div> *@
+            @* <div class="form-group"> *@
+            @*     <label asp-for="id" class="control-label"></label> *@
+            @*     <input asp-for="id" class="form-control" /> *@
+            @*     <span asp-validation-for="id" class="text-danger"></span> *@
+            @* </div> *@
+            @* <div class="form-group"> *@
+            @*     <label asp-for="CuruntImg" class="control-label"></label> *@
+            @*     <input asp-for="CuruntImg" class="form-control" /> *@
+            @*     <span asp-validation-for="CuruntImg" class="text-danger"></span> *@
+            @* </div> *@
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Salary" class="control-label"></label>
+                <input asp-for="Salary" class="form-control" />
+                <span asp-validation-for="Salary" class="text-danger"></span>
+            </div>
+               <div class="form-group">
+                <label asp-for="CrsId" class="control-label"></label>
+                <select asp-for="CrsId" class="form-control mt-4" asp-items="Model.Courses"
+                        data-placeholder="Select a category" data-minimum-results-for-search="Infinity">
+                    <option value=""></option>
+                </select>
+                <span asp-validation-for="CrsId" class="text-danger"></span>
+            </div>
+            <div class=
+            <div class="form-group">
+                <label asp-for="DepartmentId" class="control-label"></label>
+                <select asp-for="DepartmentId" class="form-control mt-4" asp-items="Model.Departments"
+                        data-placeholder="Select a category" data-minimum-results-for-search="Infinity">
+                    <option value=""></option>
+                </select>
+                <span asp-validation-for="CrsId" class="text-danger"></span>
+            </div>
+              <div class="form-group"> 
+                  <label asp-for="Img" class="form-label mt-4"></label> 
+                  <input asp-for="Img" class="form-control" type="file" /> 
+              <span asp-validation-for="Img" class="text-danger"></span> 
+             </div> 
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

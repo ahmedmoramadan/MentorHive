@@ -28,6 +28,14 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[D:/TasksITI/MVC/MVCTASK/MVCTASK/Views/Course/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TasksITI/MVC/MVCTASK/MVCTASK/Views/Course/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/TasksITI/MVC/MVCTASK/MVCTASK/Views/Course/Result.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXFJlc3VsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,16 +48,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TasksITI/MVC/MVCTASK/MVCTASK/Views/Instractor/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJhY3RvclxEZXRhaWxzLmNzaHRtbA==
+[D:/TasksITI/MVC/MVCTASK/MVCTASK/Views/Instructor/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/TasksITI/MVC/MVCTASK/MVCTASK/Views/Instractor/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJhY3RvclxJbmRleC5jc2h0bWw=
+[D:/TasksITI/MVC/MVCTASK/MVCTASK/Views/Instructor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TasksITI/MVC/MVCTASK/MVCTASK/Views/Instructor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TasksITI/MVC/MVCTASK/MVCTASK/Views/Instructor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/TasksITI/MVC/MVCTASK/MVCTASK/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TasksITI/MVC/MVCTASK/MVCTASK/Views/Shared/_AdvLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZHZMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/TasksITI/MVC/MVCTASK/MVCTASK/Views/Shared/_ValidationScriptsPartial.cshtml]

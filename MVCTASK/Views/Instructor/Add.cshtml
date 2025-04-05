@@ -1,0 +1,95 @@
+﻿@model AddInstVM
+
+@{
+    ViewData["Title"] = "Add New Instructor";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg rounded-4">
+        <div class="card-body">
+            <h2 class="card-title text-center text-primary mb-4">Add New Instructor</h2>
+            <hr />
+
+            <form asp-action="Add" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label"></label>
+                            <input asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Address" class="form-label"></label>
+                            <input asp-for="Address" class="form-control" />
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Salary" class="form-label"></label>
+                            <input asp-for="Salary" class="form-control" />
+                            <span asp-validation-for="Salary" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="CrsId" class="form-label"></label>
+                            <select asp-for="CrsId" class="form-select" asp-items="Model.Courses">
+                                <option value="">-- Select Course --</option>
+                            </select>
+                            <span asp-validation-for="CrsId" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="DepartmentId" class="form-label"></label>
+                            <select asp-for="DepartmentId" class="form-select" asp-items="Model.Departments">
+                                <option value="">-- Select Department --</option>
+                            </select>
+                            <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Img" class="form-label">Instructor Photo</label>
+                            <input asp-for="Img" type="file" class="form-control" id="ImgInput" />
+                            <span asp-validation-for="Img" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-end mt-4">
+                            <input type="submit" value="Create Instructor" class="btn btn-success px-4" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-5 d-flex align-items-start justify-content-center mt-3 mt-md-0">
+                        <img id="previewImg" class="img-thumbnail d-none" alt="Instructor Preview"
+                             style="width: 250px; height: 250px; object-fit: cover; border-radius: 12px;" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Back to List Button outside the card -->
+    <div class="mt-3 d-flex justify-content-start">
+        <a asp-action="Index" class="btn btn-outline-secondary">← Back to List</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+        <script>
+            $(document).ready(function () {
+                $('#ImgInput').on('change', function () {
+                    const file = this.files[0];
+                    if (file) {
+                        $('#previewImg')
+                            .attr('src', URL.createObjectURL(file))
+                            .removeClass('d-none');
+                    }
+                });
+            });
+        </script>
+}

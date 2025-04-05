@@ -345,3 +345,15 @@ D:\TasksITI\MVC\MVCTASK\MVCTASK\obj\Debug\net9.0\compressed\havtdligdo-4udlh72t2
 D:\TasksITI\MVC\MVCTASK\MVCTASK\obj\Debug\net9.0\compressed\s6zvv6g70v-26f9b7qkas.gz
 D:\TasksITI\MVC\MVCTASK\MVCTASK\obj\Debug\net9.0\MVCTASK.sourcelink.json
 D:\TasksITI\MVC\MVCTASK\MVCTASK\obj\Debug\net9.0\compressed\cpohhlwyd1-c4tk6i1o5f.gz
+D:\TasksITI\MVC\MVCTASK\MVCTASK\obj\Debug\net9.0\compressed\zy7j2ogrfa-yaoj7tyoi5.gz
+D:\TasksITI\MVC\MVCTASK\MVCTASK\obj\Debug\net9.0\compressed\hyt9mmmhvd-08gv4lqeyo.gz
+D:\TasksITI\MVC\MVCTASK\MVCTASK\obj\Debug\net9.0\compressed\eheu65bf1x-yaoj7tyoi5.gz
+D:\TasksITI\MVC\MVCTASK\MVCTASK\obj\Debug\net9.0\compressed\hkelhmxscz-5ipweew5fc.gz
+D:\TasksITI\MVC\MVCTASK\MVCTASK\obj\Debug\net9.0\compressed\t5a2zv447k-08gv4lqeyo.gz
+D:\TasksITI\MVC\MVCTASK\MVCTASK\obj\Debug\net9.0\compressed\20i00ccnd2-devepoo3hg.gz
+D:\TasksITI\MVC\MVCTASK\MVCTASK\obj\Debug\net9.0\compressed\miss6g8cj4-gltpf0ojga.gz
+D:\TasksITI\MVC\MVCTASK\MVCTASK\obj\Debug\net9.0\compressed\4zj9n2b16z-se4etljgao.gz
+D:\TasksITI\MVC\MVCTASK\MVCTASK\obj\Debug\net9.0\compressed\rcbjtowzqx-nd0mvvb4p6.gz
+D:\TasksITI\MVC\MVCTASK\MVCTASK\obj\Debug\net9.0\compressed\57ctkqoafv-ti0bisk6qa.gz
+D:\TasksITI\MVC\MVCTASK\MVCTASK\obj\Debug\net9.0\compressed\62d2nw4w1z-jibz57kza3.gz
+D:\TasksITI\MVC\MVCTASK\MVCTASK\obj\Debug\net9.0\compressed\bcre886ls1-hyciq7mni4.gz

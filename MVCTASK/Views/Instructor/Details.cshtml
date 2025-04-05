@@ -1,0 +1,44 @@
+﻿@model MVCTASK.Models.Instructor
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center text-primary">Instructor Details</h1>
+
+    <div class="card shadow-lg mt-3">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="~/Images/@Model.Img" class="img-thumbnail" style="width: 200px; height: auto; object-fit: cover;" alt="Instructor Image" />
+                </div>
+                <div class="col-md-8">
+                    <h4 class="card-title text-info">@Model.Name</h4>
+                    <hr />
+                    <dl class="row">
+                        <dt class="col-sm-4">Instructor ID:</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Id)</dd>
+
+                        <dt class="col-sm-4">Salary:</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Salary)</dd>
+
+                        <dt class="col-sm-4">Course ID:</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Course.Name)</dd>
+
+                        <dt class="col-sm-4">Address:</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Address)</dd>
+
+                        <dt class="col-sm-4">Department ID:</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Department.Name)</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-4 text-center">
+        
+        <a asp-action="Index" asp-route-num="1" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>

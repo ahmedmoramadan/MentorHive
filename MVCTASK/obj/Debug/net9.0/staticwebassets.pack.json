@@ -5,28 +5,140 @@
       "PackagePath": "staticwebassets\\MVCTASK.bfj831c4f9.bundle.scp.css"
     },
     {
-      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\Images\\1.jpg",
-      "PackagePath": "staticwebassets\\Images\\1.jpg"
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\13256f84-8f78-4694-8281-4fb0d27e5c4c.jpeg",
+      "PackagePath": "staticwebassets\\assets\\Images\\Instructor\\13256f84-8f78-4694-8281-4fb0d27e5c4c.jpeg"
     },
     {
-      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\Images\\2.jpg",
-      "PackagePath": "staticwebassets\\Images\\2.jpg"
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\Images\\Instructor\\2.jpg"
     },
     {
-      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\Images\\3.jpg",
-      "PackagePath": "staticwebassets\\Images\\3.jpg"
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\Images\\Instructor\\3.jpg"
     },
     {
-      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\Images\\4.jpg",
-      "PackagePath": "staticwebassets\\Images\\4.jpg"
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\Images\\Instructor\\4.jpg"
     },
     {
-      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\Images\\5.jpg",
-      "PackagePath": "staticwebassets\\Images\\5.jpg"
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\Images\\Instructor\\5.jpg"
     },
     {
-      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\Images\\6.jpg",
-      "PackagePath": "staticwebassets\\Images\\6.jpg"
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\Images\\Instructor\\6.jpg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\912ce8c1-db07-44e1-86f6-bd54d87366d1.jpg",
+      "PackagePath": "staticwebassets\\assets\\Images\\Instructor\\912ce8c1-db07-44e1-86f6-bd54d87366d1.jpg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\98a11fac-3bc1-4b34-a65f-d05b6557a786.jpg",
+      "PackagePath": "staticwebassets\\assets\\Images\\Instructor\\98a11fac-3bc1-4b34-a65f-d05b6557a786.jpg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\bfccf0d9-2804-4292-9c59-47e238874865.jpeg",
+      "PackagePath": "staticwebassets\\assets\\Images\\Instructor\\bfccf0d9-2804-4292-9c59-47e238874865.jpeg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\de4b62e8-6c6f-499b-aac7-2041eef67649.jpeg",
+      "PackagePath": "staticwebassets\\assets\\Images\\Instructor\\de4b62e8-6c6f-499b-aac7-2041eef67649.jpeg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\e4acc282-98f7-41b3-bf92-4bbf1e518936.jpg",
+      "PackagePath": "staticwebassets\\assets\\Images\\Instructor\\e4acc282-98f7-41b3-bf92-4bbf1e518936.jpg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\fa8ce4d9-f60b-4843-9d68-0e441c7578a2.jpeg",
+      "PackagePath": "staticwebassets\\assets\\Images\\Instructor\\fa8ce4d9-f60b-4843-9d68-0e441c7578a2.jpeg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\about\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\1.jpg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\about\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\2.jpg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\about\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\3.jpg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\about\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\4.jpg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\close-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\close-icon.svg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\header-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\header-bg.jpg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\logos\\facebook.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\facebook.svg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\logos\\google.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\google.svg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\logos\\ibm.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\ibm.svg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\logos\\microsoft.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\logos\\microsoft.svg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\map-image.png",
+      "PackagePath": "staticwebassets\\assets\\img\\map-image.png"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\navbar-logo.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\navbar-logo.svg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\portfolio\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\1.jpg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\portfolio\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\2.jpg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\portfolio\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\3.jpg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\portfolio\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\4.jpg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\portfolio\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\5.jpg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\portfolio\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\6.jpg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\team\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\1.jpg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\team\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\2.jpg"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\img\\team\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\3.jpg"
     },
     {
       "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\css\\bootstrap.min.css",
@@ -37,8 +149,16 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
       "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
     },
     {
       "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\js\\site.js",
@@ -307,6 +427,18 @@
     {
       "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\startbootstrap-agency-gh-pages\\css\\styles.css",
+      "PackagePath": "staticwebassets\\startbootstrap-agency-gh-pages\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\startbootstrap-agency-gh-pages\\index.html",
+      "PackagePath": "staticwebassets\\startbootstrap-agency-gh-pages\\index.html"
+    },
+    {
+      "Id": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\startbootstrap-agency-gh-pages\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\startbootstrap-agency-gh-pages\\js\\scripts.js"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MVCTASK.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

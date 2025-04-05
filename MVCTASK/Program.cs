@@ -1,3 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using MVCTASK.Data;
+using MVCTASK.Services.Interfaces;
+using MVCTASK.Services.ServicesClasses;
+using MVCTASK.Services.ServicesFile;
+
 namespace MVCTASK
 {
     public class Program
@@ -5,10 +11,15 @@ namespace MVCTASK
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            var con = builder.Configuration.GetConnectionString("DefaultConnection") ??
+                 throw new InvalidOperationException("not database found");
+            builder.Services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(con));
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddSession();
+            builder.Services.AddSingleton<FileService>();
+            builder.Services.AddScoped<IInstructorsService, InstructorsService>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -20,6 +31,7 @@ namespace MVCTASK
             }
 
             app.UseHttpsRedirection();
+            app.UseStaticFiles();
             app.UseRouting();
             app.UseSession();
             app.UseAuthorization();

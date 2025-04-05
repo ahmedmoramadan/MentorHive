@@ -4,7 +4,7 @@ namespace MVCTASK.Models
 {
     public class Course : BaseEntity
     {
-       public int Degree { get; set; }
+        public int Degree { get; set; }
         public int MinDegree { get; set; }
         public int Hour { get; set; }
         [ForeignKey("Department")]

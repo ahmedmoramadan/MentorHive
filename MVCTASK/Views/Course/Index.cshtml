@@ -1,0 +1,47 @@
+﻿@model IEnumerable<MVCTASK.Models.Course>
+
+@{
+    ViewData["Title"] = "Courses List";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1 class="text-primary"><i class="bi bi-journal-text me-2"></i> Courses</h1>
+    <a asp-action="Add" class="btn btn-success rounded-pill">
+        <i class="bi bi-plus-circle me-1"></i> Add Course
+    </a>
+</div>
+
+@if (!Model.Any())
+{
+        <div class="alert alert-info">
+            No courses found.
+        </div>
+}
+else
+{
+        <div class="table-responsive">
+            <table class="table table-hover table-striped shadow-sm">
+                <thead class="table-dark">
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.First().Name)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().Degree)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().MinDegree)</th>
+                        <th>@Html.DisplayNameFor(model => model.First().Hour)</th>
+                        <th>Department</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @foreach (var item in Model)
+                {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Degree)</td>
+                                <td>@Html.DisplayFor(modelItem => item.MinDegree)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Hour)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Department.Name)</td>
+                            </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+}

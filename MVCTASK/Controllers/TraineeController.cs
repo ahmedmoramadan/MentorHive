@@ -1,13 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MVCTASK.Data;
-using MVCTASK.ViewModels;
+using MVCTASK.ViewModels.TraineeVM;
 
 namespace MVCTASK.Controllers
 {
     public class TraineeController : Controller
     {
-        AppDbContext _context = new AppDbContext(); 
+        private readonly AppDbContext _context;
+        public TraineeController(AppDbContext context)
+        {
+            _context = context;
+        }
         public IActionResult Index()
         {
             return View();
