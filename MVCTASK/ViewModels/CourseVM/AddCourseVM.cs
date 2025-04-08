@@ -1,19 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using MVCTASK.Models;
+using MVCTASK.Validation;
 
 namespace MVCTASK.ViewModels.CourseVM
 {
-    public class AddCourseVM
+    public class AddCourseVM : CourseVM
     {
-        [MinLength(3)]
-        public string Name { get; set; } = default!;
-        public int Degree { get; set; }
-        public int MinDegree { get; set; }
-        public int Hour { get; set; }
-        [Display(Name = "Department")]
-        public int DepartmentId { get; set; }
-        public IEnumerable<SelectListItem> Departments { get; set; } = Enumerable.Empty<SelectListItem>();
+       
     }
 }

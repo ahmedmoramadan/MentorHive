@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
-namespace MVCTASK.Controllers
+﻿namespace MVCTASK.Controllers
 {
     public class SessionController : Controller
     {

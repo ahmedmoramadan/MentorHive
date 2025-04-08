@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVCTASK")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1aa45572ee3c3b1a2bce7ebfc7d774f645b7d38")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6e5a86281aa532bd90f12a507b239e91e78f12d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVCTASK")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVCTASK")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

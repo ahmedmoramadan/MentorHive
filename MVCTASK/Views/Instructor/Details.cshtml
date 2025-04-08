@@ -11,7 +11,7 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-md-4 text-center">
-                    <img src="~/Images/@Model.Img" class="img-thumbnail" style="width: 200px; height: auto; object-fit: cover;" alt="Instructor Image" />
+                    <img src="~/assets/Images/Instructor/@Model.Img" class="img-thumbnail" style="width: 200px; height: auto; object-fit: cover;" alt="Instructor Image" />
                 </div>
                 <div class="col-md-8">
                     <h4 class="card-title text-info">@Model.Name</h4>
@@ -29,7 +29,7 @@
                         <dt class="col-sm-4">Address:</dt>
                         <dd class="col-sm-8">@Html.DisplayFor(model => model.Address)</dd>
 
-                        <dt class="col-sm-4">Department ID:</dt>
+                        <dt class="col-sm-4">Department:</dt>
                         <dd class="col-sm-8">@Html.DisplayFor(model => model.Department.Name)</dd>
                     </dl>
                 </div>

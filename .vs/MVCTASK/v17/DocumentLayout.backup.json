@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "D:\\TasksITI\\MVC\\MVCTASK\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\views\\instructor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -31,53 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Views\\Instructor\\Index.cshtml",
-              "RelativeDocumentMoniker": "MVCTASK\\Views\\Instructor\\Index.cshtml",
-              "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Views\\Instructor\\Index.cshtml*",
-              "RelativeToolTip": "MVCTASK\\Views\\Instructor\\Index.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T19:31:48.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InstructorController.cs",
-              "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Controllers\\InstructorController.cs",
-              "RelativeDocumentMoniker": "MVCTASK\\Controllers\\InstructorController.cs",
-              "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Controllers\\InstructorController.cs",
-              "RelativeToolTip": "MVCTASK\\Controllers\\InstructorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T19:31:40.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Views\\Course\\Index.cshtml",
-              "RelativeDocumentMoniker": "MVCTASK\\Views\\Course\\Index.cshtml",
-              "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Views\\Course\\Index.cshtml",
-              "RelativeToolTip": "MVCTASK\\Views\\Course\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAADwvy8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T19:30:58.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "CourseController.cs",
               "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "MVCTASK\\Controllers\\CourseController.cs",
               "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Controllers\\CourseController.cs",
               "RelativeToolTip": "MVCTASK\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAJ0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T19:30:50.35Z",
+              "WhenOpened": "2025-04-07T23:56:48.002Z",
               "EditorCaption": ""
             }
           ]

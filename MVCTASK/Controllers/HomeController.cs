@@ -1,7 +1,3 @@
-using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using MVCTASK.Models;
-
 namespace MVCTASK.Controllers
 {
     public class HomeController : Controller

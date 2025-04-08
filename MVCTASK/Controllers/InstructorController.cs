@@ -39,6 +39,7 @@ namespace MVCTASK.Controllers
             addInstVM.Courses = _Context.courses.Select(x => new SelectListItem { Value = x.Id.ToString(), Text = x.Name }).OrderBy(x => x.Text).AsNoTracking().ToList();
             return View(addInstVM);
         }
+
         [HttpPost]
         public async Task<IActionResult> Add(AddInstVM model)
         {

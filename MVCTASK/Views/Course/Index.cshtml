@@ -10,6 +10,33 @@
         <i class="bi bi-plus-circle me-1"></i> Add Course
     </a>
 </div>
+<form method="get" asp-action="Search" class="d-flex justify-content-end mb-4">
+    <div class="form-group d-flex">
+        <label for="Name" class="me-2">Course Name</label>
+        <input type="text" id="Name" name="Name" class="form-control me-2" placeholder="Search by course name" />
+        <button type="submit" class="btn btn-primary btn-sm">Search</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary btn-sm ms-2">Clear</a>
+    </div>
+</form>
+  @*     <div class="form-group"> *@
+       @*         <label for="DepartmentId">Department</label> *@
+       @*       <select id="DepartmentId" name="DepartmentId" class="form-control"> *@
+       @*     <option value="">Select Department</option> *@
+       @*             @if (ViewBag.Departments != null) *@
+       @*             { *@
+       @*                 @foreach (var department in ViewBag.Departments as List<Department>) *@
+       @*                 { *@
+       @*                     <option value="@department.Id">@department.Name</option> *@
+       @*                 } *@
+       @*             } *@
+       @*             else *@
+       @*             { *@
+       @*             <option value="">No departments available</option> *@
+       @*             } *@
+       @* </select> *@
+
+       @*     </div> *@
+
 
 @if (!Model.Any())
 {

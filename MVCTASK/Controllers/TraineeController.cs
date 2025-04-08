@@ -1,7 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using MVCTASK.Data;
-using MVCTASK.ViewModels.TraineeVM;
+﻿
 
 namespace MVCTASK.Controllers
 {

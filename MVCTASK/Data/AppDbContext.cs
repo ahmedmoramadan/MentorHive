@@ -1,7 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using MVCTASK.Models;
-
-namespace MVCTASK.Data
+﻿namespace MVCTASK.Data
 {
     public class AppDbContext : DbContext
     {

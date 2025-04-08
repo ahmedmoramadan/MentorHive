@@ -1,4 +1,5 @@
-﻿using MVCTASK.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using MVCTASK.Data;
 using MVCTASK.Models;
 using MVCTASK.Services.Interfaces;
 using MVCTASK.Services.ServicesFile;
@@ -90,7 +91,7 @@ namespace MVCTASK.Services.ServicesClasses
 
         public Instructor? GetById(int id)
         {
-            return _context.instructors.SingleOrDefault(x => x.Id == id);
+            return _context.instructors.Include(x=>x.Department).Include(c=>c.Course).FirstOrDefault(x => x.Id == id);
         }
 
         public bool Remove(int id)
