@@ -1,12 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using MVCTASK.Data;
-using MVCTASK.Models;
-using MVCTASK.Services.Interfaces;
-using MVCTASK.Services.ServicesFile;
-using MVCTASK.Settings;
-using MVCTASK.ViewModels.instractorVM;
-
-namespace MVCTASK.Services.ServicesClasses
+﻿namespace MVCTASK.Services.ServicesClasses
 {
     public class InstructorsService : IInstructorsService
     {

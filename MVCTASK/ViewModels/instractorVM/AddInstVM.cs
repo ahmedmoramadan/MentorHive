@@ -7,7 +7,7 @@ namespace MVCTASK.ViewModels.instractorVM
 {
     public class AddInstVM : InstVM
     {
-        [MaxSize(FileSetitings.maxSizeInMB),
+        [MaxSize(FileSetitings.maxSizeByByets),
         AllowedExtention(FileSetitings.AllowExtentions)]
         //[RegularExpression(@"\w+\.(jpg|jpeg|png)", ErrorMessage = "Only .jpg, .jpeg or .png files are allowed")]
         public IFormFile Img { get; set; } = default!;

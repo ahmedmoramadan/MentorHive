@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "D:\\TasksITI\\MVC\\MVCTASK\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\viewmodels\\instractorvm\\editinstvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\viewmodels\\instractorvm\\editinstvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\viewmodels\\instractorvm\\addinstvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\viewmodels\\instractorvm\\addinstvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\viewmodels\\instractorvm\\instvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\viewmodels\\instractorvm\\instvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\settings\\filesetitings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\settings\\filesetitings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\validation\\maxsizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\validation\\maxsizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\views\\shared\\_navpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\views\\shared\\_navpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|d:\\tasksiti\\mvc\\mvctask\\mvctask\\services\\servicesclasses\\coursesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{203AC94B-8619-4601-8E47-18A90343FB35}|MVCTASK\\MVCTASK.csproj|solutionrelative:mvctask\\services\\servicesclasses\\coursesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +50,131 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddInstVM.cs",
+              "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\ViewModels\\instractorVM\\AddInstVM.cs",
+              "RelativeDocumentMoniker": "MVCTASK\\ViewModels\\instractorVM\\AddInstVM.cs",
+              "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\ViewModels\\instractorVM\\AddInstVM.cs",
+              "RelativeToolTip": "MVCTASK\\ViewModels\\instractorVM\\AddInstVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T07:06:07.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InstVM.cs",
+              "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\ViewModels\\instractorVM\\InstVM.cs",
+              "RelativeDocumentMoniker": "MVCTASK\\ViewModels\\instractorVM\\InstVM.cs",
+              "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\ViewModels\\instractorVM\\InstVM.cs",
+              "RelativeToolTip": "MVCTASK\\ViewModels\\instractorVM\\InstVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T07:05:11.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EditInstVm.cs",
+              "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\ViewModels\\instractorVM\\EditInstVm.cs",
+              "RelativeDocumentMoniker": "MVCTASK\\ViewModels\\instractorVM\\EditInstVm.cs",
+              "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\ViewModels\\instractorVM\\EditInstVm.cs",
+              "RelativeToolTip": "MVCTASK\\ViewModels\\instractorVM\\EditInstVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T07:05:10.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileSetitings.cs",
+              "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Settings\\FileSetitings.cs",
+              "RelativeDocumentMoniker": "MVCTASK\\Settings\\FileSetitings.cs",
+              "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Settings\\FileSetitings.cs",
+              "RelativeToolTip": "MVCTASK\\Settings\\FileSetitings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T07:02:42.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MaxSizeAttribute.cs",
+              "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Validation\\MaxSizeAttribute.cs",
+              "RelativeDocumentMoniker": "MVCTASK\\Validation\\MaxSizeAttribute.cs",
+              "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Validation\\MaxSizeAttribute.cs",
+              "RelativeToolTip": "MVCTASK\\Validation\\MaxSizeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T07:02:28.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVCTASK\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVCTASK\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T06:51:10.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_NavPartial.cshtml",
+              "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Views\\Shared\\_NavPartial.cshtml",
+              "RelativeDocumentMoniker": "MVCTASK\\Views\\Shared\\_NavPartial.cshtml",
+              "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Views\\Shared\\_NavPartial.cshtml",
+              "RelativeToolTip": "MVCTASK\\Views\\Shared\\_NavPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T06:51:05.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCTASK\\Views\\Course\\Index.cshtml",
+              "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "MVCTASK\\Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T11:02:58.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CoursesService.cs",
+              "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Services\\ServicesClasses\\CoursesService.cs",
+              "RelativeDocumentMoniker": "MVCTASK\\Services\\ServicesClasses\\CoursesService.cs",
+              "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Services\\ServicesClasses\\CoursesService.cs",
+              "RelativeToolTip": "MVCTASK\\Services\\ServicesClasses\\CoursesService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwDsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T11:01:23.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CourseController.cs",
               "DocumentMoniker": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "MVCTASK\\Controllers\\CourseController.cs",
               "ToolTip": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\Controllers\\CourseController.cs",
               "RelativeToolTip": "MVCTASK\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAJ0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAowI0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T23:56:48.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T11:01:05.318Z"
             }
           ]
         }

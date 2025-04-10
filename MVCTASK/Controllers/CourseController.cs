@@ -1,60 +1,53 @@
-﻿namespace MVCTASK.Controllers
+﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+
+namespace MVCTASK.Controllers
 {
     public class CourseController : Controller
     {
-        private readonly AppDbContext _context;
-        public CourseController(AppDbContext context)
+        private readonly ICoursesService _coursesService;
+        private readonly IDepartmentsService _departmentsService;
+        //private readonly AppDbContext _context;
+        public CourseController(ICoursesService coursesService , IDepartmentsService departmentsService)
         {
-            _context = context;
+            _departmentsService = departmentsService;
+            _coursesService = coursesService;
+            //_context = context;
         }
         public IActionResult Search(string Name, int? DepartmentId)
         {
-            var coursesQuery = _context.courses.AsQueryable();
-
-            if (!string.IsNullOrEmpty(Name))
-            {
-                coursesQuery = coursesQuery.Where(c => c.Name.Contains(Name));
-            }
-
-            if (DepartmentId.HasValue)
-            {
-                coursesQuery = coursesQuery.Where(c => c.DepartmentId == DepartmentId.Value);
-            }
-
-            var courses = coursesQuery.ToList();
-
+            var courses = _coursesService.Search(Name);
             return View("Index", courses);
         }
       
         public IActionResult Index()
         {
-            ViewBag.Departments = _context.departments.ToList();
-            var Courses = _context.courses.Include(d=>d.Department);
+            var Courses = _coursesService.GetAll();
             return View(Courses);
         }
         public IActionResult Result(int id)
         {
-            IEnumerable<CrsReselt> CR = _context.crsReselts.AsNoTracking().Include(c => c.Course).Include(t => t.Trainee).Where(c => c.CourseId == id);
+            //IEnumerable<CrsReselt> CR = _context.crsReselts.AsNoTracking().Include(c => c.Course).Include(t => t.Trainee).Where(c => c.CourseId == id);
 
-            List<CourseResultVM> CRVM = new List<CourseResultVM>();
-            foreach (var c in CR)
-            {
-                CourseResultVM cVM = new CourseResultVM()
-                {
-                    trainee = c.Trainee.Name,
-                    Course = c.Course.Name,
-                    color = c.Course.MinDegree > c.Gredee ? "red" : "blue"
-                };
-                CRVM.Add(cVM);
-            }
-            return View(CRVM);
+            //List<CourseResultVM> CRVM = new List<CourseResultVM>();
+            //foreach (var c in CR)
+            //{
+            //    CourseResultVM cVM = new CourseResultVM()
+            //    {
+            //        trainee = c.Trainee.Name,
+            //        Course = c.Course.Name,
+            //        color = c.Course.MinDegree > c.Gredee ? "red" : "blue"
+            //    };
+            //    CRVM.Add(cVM);
+            //}
+            //return View(CRVM);
+            return View();
         }
         [HttpGet]
         public IActionResult Add()
         {
             AddCourseVM addCourseVM = new AddCourseVM()
             {
-                Departments = _context.departments.Select(x => new SelectListItem { Value = x.Id.ToString(), Text = x.Name }).OrderBy(x => x.Text).AsNoTracking().ToList(),
+                Departments = _departmentsService.GetDepartments()
             };
             return View(addCourseVM);
         }
@@ -70,21 +63,24 @@
                     DepartmentId = model.DepartmentId,
                     MinDegree = model.MinDegree,
                     Name = model.Name,
-                    Departments = _context.departments.Select(x => new SelectListItem { Value = x.Id.ToString(), Text = x.Name }).OrderBy(x => x.Text).AsNoTracking().ToList(),
+                    Departments = _departmentsService.GetDepartments()
                 };
                 return View(addCourseVM);
             }
-            Course CRS = new Course()
-            {
-                Name = model.Name,
-                MinDegree = model.MinDegree,
-                DepartmentId = model.DepartmentId,
-                Degree = model.Degree,
-                Hour = (int)model.Hour,
+            _coursesService.Add(model);
+            int c=  _coursesService.save();
 
-            };
-            _context.Add(CRS);
-            _context.SaveChanges();
+            //Course CRS = new Course()
+            //{
+            //    Name = model.Name,
+            //    MinDegree = model.MinDegree,
+            //    DepartmentId = model.DepartmentId,
+            //    Degree = model.Degree,
+            //    Hour = (int)model.Hour,
+
+            //};
+            //_context.Add(CRS);
+            //_context.SaveChanges();
             return RedirectToAction("Index");
         }
 
@@ -99,7 +95,7 @@
         }
         public IActionResult Edit(int id)
         {
-            var c = _context.courses.Include(d=>d.Department).FirstOrDefault(x=>x.Id==id);
+            var c = _coursesService.GetbyId(id);
             EditCourseVM editCourseVM = new EditCourseVM()
             {
                 id = id,
@@ -108,7 +104,7 @@
                 DepartmentId = c!.DepartmentId,
                 Degree = c!.Degree,
                 Hour = (int)c!.Hour,
-                Departments = _context.departments.Select(x => new SelectListItem { Value = x.Id.ToString(), Text = x.Name }).OrderBy(x => x.Text).AsNoTracking().ToList(),
+                Departments = _departmentsService.GetDepartments()
             };
             return View(editCourseVM);
         }
@@ -125,20 +121,29 @@
                     DepartmentId = model.DepartmentId,
                     Degree = model.Degree,
                     Hour = (int)model.Hour,
-                    Departments = _context.departments.Select(x => new SelectListItem { Value = x.Id.ToString(), Text = x.Name }).OrderBy(x => x.Text).AsNoTracking().ToList(),
+                    Departments = _departmentsService.GetDepartments()
                 };
                 return View(editCourseVM);
             }
-            var c = _context.courses.FirstOrDefault(x=>x.Id == model.id);
-            c.Degree=model.Degree;
-            c.Hour=model.Hour;
-            c.DepartmentId=model.DepartmentId;
-            c.MinDegree =model.MinDegree;
-            c.Name=model.Name;
-            _context.Update(c);
-            _context.SaveChanges();
+            _coursesService.Edit(model);
+            _coursesService.save();
+            //var c = _context.courses.FirstOrDefault(x=>x.Id == model.id);
+            //c.Degree=model.Degree;
+            //c.Hour=model.Hour;
+            //c.DepartmentId=model.DepartmentId;
+            //c.MinDegree =model.MinDegree;
+            //c.Name=model.Name;
+            //_context.Update(c);
+            //_context.SaveChanges();
             return RedirectToAction(nameof(Index));
             
+        }
+
+        public IActionResult Remove(int id)
+        {
+            _coursesService.delete(id);
+            _coursesService.save();
+            return RedirectToAction(nameof(Index));
         }
         public IActionResult ValidateHour(int hour)
         {

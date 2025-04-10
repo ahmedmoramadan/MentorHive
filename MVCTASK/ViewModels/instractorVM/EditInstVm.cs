@@ -7,7 +7,7 @@ namespace MVCTASK.ViewModels.instractorVM
     {
          public int id {  get; set; } 
         public string CuruntImg { get; set; } = string.Empty;
-        [MaxSize(FileSetitings.maxSizeInMB)]
+        [MaxSize(FileSetitings.maxSizeByByets)]
         [AllowedExtention(FileSetitings.AllowExtentions)]
         public IFormFile? Img { get; set; } = default!;
 

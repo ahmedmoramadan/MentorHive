@@ -40,7 +40,7 @@ namespace MVCTASK.Validation
             // no 
             if (editCourseVM != null)
             {
-                bool courseExists = _context.courses.Where(i=>i.Id!= editCourseVM.id || ).Any(x =>
+                bool courseExists = _context.courses.Where(i=>i.Id!= editCourseVM.id).Any(x =>
                     x.Name == name && x.DepartmentId == editCourseVM.DepartmentId);
 
                 if (courseExists)

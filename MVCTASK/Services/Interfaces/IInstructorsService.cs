@@ -1,7 +1,4 @@
-﻿using MVCTASK.Models;
-using MVCTASK.ViewModels.instractorVM;
-
-namespace MVCTASK.Services.Interfaces
+﻿namespace MVCTASK.Services.Interfaces
 {
     public interface IInstructorsService
     {

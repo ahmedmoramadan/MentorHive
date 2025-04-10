@@ -6,3 +6,6 @@ global using MVCTASK.Models;
 global using MVCTASK.ViewModels.CourseVM;
 global using System.Diagnostics;
 global using MVCTASK.ViewModels.TraineeVM;
+global using MVCTASK.Services.Interfaces;
+global using MVCTASK.Services.ServicesFile;
+global using MVCTASK.ViewModels.instractorVM;

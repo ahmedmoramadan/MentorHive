@@ -18,24 +18,6 @@
         <a href="@Url.Action("Index")" class="btn btn-secondary btn-sm ms-2">Clear</a>
     </div>
 </form>
-  @*     <div class="form-group"> *@
-       @*         <label for="DepartmentId">Department</label> *@
-       @*       <select id="DepartmentId" name="DepartmentId" class="form-control"> *@
-       @*     <option value="">Select Department</option> *@
-       @*             @if (ViewBag.Departments != null) *@
-       @*             { *@
-       @*                 @foreach (var department in ViewBag.Departments as List<Department>) *@
-       @*                 { *@
-       @*                     <option value="@department.Id">@department.Name</option> *@
-       @*                 } *@
-       @*             } *@
-       @*             else *@
-       @*             { *@
-       @*             <option value="">No departments available</option> *@
-       @*             } *@
-       @* </select> *@
-
-       @*     </div> *@
 
 
 @if (!Model.Any())
@@ -55,6 +37,7 @@ else
                         <th>@Html.DisplayNameFor(model => model.First().MinDegree)</th>
                         <th>@Html.DisplayNameFor(model => model.First().Hour)</th>
                         <th>Department</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -66,6 +49,12 @@ else
                                 <td>@Html.DisplayFor(modelItem => item.MinDegree)</td>
                                 <td>@Html.DisplayFor(modelItem => item.Hour)</td>
                                 <td>@Html.DisplayFor(modelItem => item.Department.Name)</td>
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning me-1">
+                                        <i class="bi bi-pencil-square"></i> Edit</a>
+                                             <a asp-action="Remove" asp-route-id="@item.Id" class="btn btn-sm btn-danger"onclick="return confirm('Are you sure you want to delete this course?');">
+                                        <i class="bi bi-trash"></i> Delete</a>
+                                </td>
                             </tr>
                 }
                 </tbody>

@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using MVCTASK.Data;
-using MVCTASK.Services.Interfaces;
 using MVCTASK.Services.ServicesClasses;
 using MVCTASK.Services.ServicesFile;
 
@@ -20,6 +19,10 @@ namespace MVCTASK
             builder.Services.AddSession();
             builder.Services.AddSingleton<FileService>();
             builder.Services.AddScoped<IInstructorsService, InstructorsService>();
+            builder.Services.AddScoped<ICoursesService,CoursesService>();
+            builder.Services.AddScoped<IDepartmentsService, DepartmentsService>();
+
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
