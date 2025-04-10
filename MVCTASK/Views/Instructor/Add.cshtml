@@ -34,19 +34,19 @@
                         </div>
 
                         <div class="mb-3">
-                            <label asp-for="CrsId" class="form-label"></label>
-                            <select asp-for="CrsId" class="form-select" asp-items="Model.Courses">
-                                <option value="">-- Select Course --</option>
-                            </select>
-                            <span asp-validation-for="CrsId" class="text-danger"></span>
-                        </div>
-
-                        <div class="mb-3">
                             <label asp-for="DepartmentId" class="form-label"></label>
                             <select asp-for="DepartmentId" class="form-select" asp-items="Model.Departments">
                                 <option value="">-- Select Department --</option>
                             </select>
                             <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="CrsId" class="form-label"></label>
+                            <select asp-for="CrsId" class="form-select" asp-items="Model.Courses">
+                                <option value="">-- Select Course --</option>
+                            </select>
+                            <span asp-validation-for="CrsId" class="text-danger"></span>
                         </div>
 
                         <div class="mb-3">
@@ -80,16 +80,41 @@
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
 
-        <script>
-            $(document).ready(function () {
-                $('#ImgInput').on('change', function () {
-                    const file = this.files[0];
-                    if (file) {
-                        $('#previewImg')
-                            .attr('src', URL.createObjectURL(file))
-                            .removeClass('d-none');
-                    }
-                });
+    <script>
+        $(document).ready(function () {
+            // Image preview
+            $('#ImgInput').on('change', function () {
+                const file = this.files[0];
+                if (file) {
+                    $('#previewImg')
+                        .attr('src', URL.createObjectURL(file))
+                        .removeClass('d-none');
+                }
             });
-        </script>
+
+            // Department change event for AJAX
+            $('#DepartmentId').on('change', function () {
+                var deptId = $(this).val();
+                if (deptId) {
+                    $.ajax({
+                        url: '/Instructor/GetCoursesByDepartment',
+                        type: 'GET',
+                        data: { deptId: deptId },
+                        success: function (data) {
+                            var courseDropdown = $('#CrsId');
+                            courseDropdown.empty();
+                            courseDropdown.append('<option value="">-- Select Course --</option>');
+                            $.each(data, function (i, course) {
+                                courseDropdown.append(`<option value="${course.value}">${course.text}</option>`);
+                            });
+                        },
+                        error: function () {
+                            alert('Error loading courses.');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+
 }

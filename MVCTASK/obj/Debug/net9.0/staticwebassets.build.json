@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tEzKaDWP5G8dotwYBy0zXaTh0eyTxLCX6em7eZKZHN8=",
+  "Hash": "9GBZoZW9kc153af4p7Mpce3Jd8wn7RTG63QZTtzmXwg=",
   "Source": "MVCTASK",
   "BasePath": "_content/MVCTASK",
   "Mode": "Default",
@@ -1886,6 +1886,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\Images\\Instructor\\5.jpg"
     },
     {
+      "Identity": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\55b19773-cf00-4ce0-ac27-edb62dd71b77.jpeg",
+      "SourceId": "MVCTASK",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\",
+      "BasePath": "_content/MVCTASK",
+      "RelativePath": "assets/Images/Instructor/55b19773-cf00-4ce0-ac27-edb62dd71b77#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6ivrlxb6ys",
+      "Integrity": "PmFqooCsz+B+MmLaiKkv1Ypq0OYuSuZ99vnveFc4qBg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\Images\\Instructor\\55b19773-cf00-4ce0-ac27-edb62dd71b77.jpeg"
+    },
+    {
       "Identity": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\6.jpg",
       "SourceId": "MVCTASK",
       "SourceType": "Discovered",
@@ -1949,6 +1970,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\Images\\Instructor\\98a11fac-3bc1-4b34-a65f-d05b6557a786.jpg"
     },
     {
+      "Identity": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\99248a64-8130-4ba4-9c98-00fe421c26b5.jpeg",
+      "SourceId": "MVCTASK",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\",
+      "BasePath": "_content/MVCTASK",
+      "RelativePath": "assets/Images/Instructor/99248a64-8130-4ba4-9c98-00fe421c26b5#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8xkv8a3a7n",
+      "Integrity": "rJv8O40Ye98+Bo3pY+Dzeb41bOVDZKfxhStj0Gm7lWA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\Images\\Instructor\\99248a64-8130-4ba4-9c98-00fe421c26b5.jpeg"
+    },
+    {
       "Identity": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\bfccf0d9-2804-4292-9c59-47e238874865.jpeg",
       "SourceId": "MVCTASK",
       "SourceType": "Discovered",
@@ -2010,6 +2052,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\Images\\Instructor\\e4acc282-98f7-41b3-bf92-4bbf1e518936.jpg"
+    },
+    {
+      "Identity": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\f3d91b99-7a9d-4d7a-b09c-35bb928472d9.jpg",
+      "SourceId": "MVCTASK",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\",
+      "BasePath": "_content/MVCTASK",
+      "RelativePath": "assets/Images/Instructor/f3d91b99-7a9d-4d7a-b09c-35bb928472d9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dvraqa0kjn",
+      "Integrity": "Z5IHqso1v1XGsC48ZZ57AD9T7b9R4Hryh/75tYykcDc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\Images\\Instructor\\f3d91b99-7a9d-4d7a-b09c-35bb928472d9.jpg"
     },
     {
       "Identity": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\fa8ce4d9-f60b-4843-9d68-0e441c7578a2.jpeg",
@@ -4759,6 +4822,88 @@
       ]
     },
     {
+      "Route": "assets/Images/Instructor/55b19773-cf00-4ce0-ac27-edb62dd71b77.6ivrlxb6ys.jpeg",
+      "AssetFile": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\55b19773-cf00-4ce0-ac27-edb62dd71b77.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PmFqooCsz+B+MmLaiKkv1Ypq0OYuSuZ99vnveFc4qBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:10:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ivrlxb6ys"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/Images/Instructor/55b19773-cf00-4ce0-ac27-edb62dd71b77.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PmFqooCsz+B+MmLaiKkv1Ypq0OYuSuZ99vnveFc4qBg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/Images/Instructor/55b19773-cf00-4ce0-ac27-edb62dd71b77.jpeg",
+      "AssetFile": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\55b19773-cf00-4ce0-ac27-edb62dd71b77.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PmFqooCsz+B+MmLaiKkv1Ypq0OYuSuZ99vnveFc4qBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:10:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PmFqooCsz+B+MmLaiKkv1Ypq0OYuSuZ99vnveFc4qBg="
+        }
+      ]
+    },
+    {
       "Route": "assets/Images/Instructor/6.jpg",
       "AssetFile": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\6.jpg",
       "Selectors": [],
@@ -5005,6 +5150,88 @@
       ]
     },
     {
+      "Route": "assets/Images/Instructor/99248a64-8130-4ba4-9c98-00fe421c26b5.8xkv8a3a7n.jpeg",
+      "AssetFile": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\99248a64-8130-4ba4-9c98-00fe421c26b5.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3920"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rJv8O40Ye98+Bo3pY+Dzeb41bOVDZKfxhStj0Gm7lWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:09:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8xkv8a3a7n"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/Images/Instructor/99248a64-8130-4ba4-9c98-00fe421c26b5.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rJv8O40Ye98+Bo3pY+Dzeb41bOVDZKfxhStj0Gm7lWA="
+        }
+      ]
+    },
+    {
+      "Route": "assets/Images/Instructor/99248a64-8130-4ba4-9c98-00fe421c26b5.jpeg",
+      "AssetFile": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\99248a64-8130-4ba4-9c98-00fe421c26b5.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3920"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rJv8O40Ye98+Bo3pY+Dzeb41bOVDZKfxhStj0Gm7lWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:09:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rJv8O40Ye98+Bo3pY+Dzeb41bOVDZKfxhStj0Gm7lWA="
+        }
+      ]
+    },
+    {
       "Route": "assets/Images/Instructor/bfccf0d9-2804-4292-9c59-47e238874865.jpeg",
       "AssetFile": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\bfccf0d9-2804-4292-9c59-47e238874865.jpeg",
       "Selectors": [],
@@ -5247,6 +5474,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-FAVJsgyad+S4W7G1gDy7t1ojf53rAX9HWxO4je6ivhU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/Images/Instructor/f3d91b99-7a9d-4d7a-b09c-35bb928472d9.dvraqa0kjn.jpg",
+      "AssetFile": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\f3d91b99-7a9d-4d7a-b09c-35bb928472d9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56226"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z5IHqso1v1XGsC48ZZ57AD9T7b9R4Hryh/75tYykcDc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:10:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dvraqa0kjn"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/Images/Instructor/f3d91b99-7a9d-4d7a-b09c-35bb928472d9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z5IHqso1v1XGsC48ZZ57AD9T7b9R4Hryh/75tYykcDc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/Images/Instructor/f3d91b99-7a9d-4d7a-b09c-35bb928472d9.jpg",
+      "AssetFile": "D:\\TasksITI\\MVC\\MVCTASK\\MVCTASK\\wwwroot\\assets\\Images\\Instructor\\f3d91b99-7a9d-4d7a-b09c-35bb928472d9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56226"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z5IHqso1v1XGsC48ZZ57AD9T7b9R4Hryh/75tYykcDc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 07:10:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z5IHqso1v1XGsC48ZZ57AD9T7b9R4Hryh/75tYykcDc="
         }
       ]
     },

@@ -43,7 +43,7 @@
             var er = await _context.SaveChangesAsync();
             return er > 0;
         }
-
+        
         public async Task<Instructor> Edit(EditInstVm model)
         {
             var inst = GetById(model.id);

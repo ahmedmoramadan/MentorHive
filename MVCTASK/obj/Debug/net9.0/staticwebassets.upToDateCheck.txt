@@ -83,12 +83,15 @@ wwwroot\assets\Images\Instructor\2.jpg
 wwwroot\assets\Images\Instructor\3.jpg
 wwwroot\assets\Images\Instructor\4.jpg
 wwwroot\assets\Images\Instructor\5.jpg
+wwwroot\assets\Images\Instructor\55b19773-cf00-4ce0-ac27-edb62dd71b77.jpeg
 wwwroot\assets\Images\Instructor\6.jpg
 wwwroot\assets\Images\Instructor\912ce8c1-db07-44e1-86f6-bd54d87366d1.jpg
 wwwroot\assets\Images\Instructor\98a11fac-3bc1-4b34-a65f-d05b6557a786.jpg
+wwwroot\assets\Images\Instructor\99248a64-8130-4ba4-9c98-00fe421c26b5.jpeg
 wwwroot\assets\Images\Instructor\bfccf0d9-2804-4292-9c59-47e238874865.jpeg
 wwwroot\assets\Images\Instructor\de4b62e8-6c6f-499b-aac7-2041eef67649.jpeg
 wwwroot\assets\Images\Instructor\e4acc282-98f7-41b3-bf92-4bbf1e518936.jpg
+wwwroot\assets\Images\Instructor\f3d91b99-7a9d-4d7a-b09c-35bb928472d9.jpg
 wwwroot\assets\Images\Instructor\fa8ce4d9-f60b-4843-9d68-0e441c7578a2.jpeg
 wwwroot\assets\img\about\1.jpg
 wwwroot\assets\img\about\2.jpg

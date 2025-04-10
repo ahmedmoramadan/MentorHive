@@ -19,6 +19,18 @@
             };
             _context.Add(course);
         }
+        public List<SelectListItem> GetCoursesByDptId(int deptId)
+        {
+            var courses = _context.courses
+                .Where(c => c.DepartmentId == deptId)
+                .Select(c => new SelectListItem
+                {
+                    Value = c.Id.ToString(),
+                    Text = c.Name
+                }).ToList();
+
+            return courses;
+        }
 
         public void delete(int id)
         {
